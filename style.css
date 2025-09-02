@@ -1,99 +1,100 @@
-@import url('https://fonts.googleapis.com/css2?family=Courier+Prime:ital@1&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Courier+Prime:ital@1&display=swap");
 
-body{
-    background: #edeaff;
-    font-family: 'Courier Prime', monospace;
+body {
+  background: #edeaff;
+  font-family: "Courier Prime", monospace;
 }
 
 .stopwatch {
-    width: 90%;
-    max-width: 600px;
-    background-image: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)), url('images/background.png');
-    background-size: cover;
-    background-position: center;
-    text-align: center;
-    padding: 40px 0;
-    color: white;
-    margin: 200px auto 0;
-    box-shadow: 0, 10px, 10px, rgba(0, 0, 0, 0.2);
+  width: 90%;
+  max-width: 600px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+    url("images/background.png");
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  padding: 40px 0;
+  color: white;
+  margin: 200px auto 0;
+  box-shadow: 0, 10px, 10px, rgba(0, 0, 0, 0.2);
 }
-.stopwatch h1{
-    margin-top: 60px;
-    font-size: 64px;
-    font-weight: 300;
+.stopwatch h1 {
+  margin-top: 60px;
+  font-size: 64px;
+  font-weight: 300;
 }
-.buttons{
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
-.buttons img{
-    width: 50px;
-    margin: 0 20px;
-    cursor: pointer;
+.buttons img {
+  width: 50px;
+  margin: 0 20px;
+  cursor: pointer;
 }
-.buttons img:nth-child(2){
-    width: 78px;
+.buttons img:nth-child(2) {
+  width: 78px;
 }
 
 /* 📱 Mobile devices (max-width: 600px) */
 @media (max-width: 600px) {
-    .stopwatch {
-        width: 95%;
-        padding: 30px 0;
-        margin: 100px auto 0;
-    }
+  .stopwatch {
+    width: 95%;
+    padding: 30px 0;
+    margin: 100px auto 0;
+  }
 
-    .stopwatch h1 {
-        font-size: 48px; /* smaller text */
-    }
+  .stopwatch h1 {
+    font-size: 48px; /* smaller text */
+  }
 
-    .buttons img {
-        width: 40px;
-    }
+  .buttons img {
+    width: 40px;
+  }
 
-    .buttons img:nth-child(2) {
-        width: 60px;
-    }
+  .buttons img:nth-child(2) {
+    width: 60px;
+  }
 }
 
 /* 📲 Small phones (max-width: 400px) */
 @media (max-width: 400px) {
-    .stopwatch {
-        padding: 20px 0;
-        margin: 60px auto 0;
-    }
+  .stopwatch {
+    padding: 20px 0;
+    margin: 60px auto 0;
+  }
 
-    .stopwatch h1 {
-        font-size: 40px;
-    }
+  .stopwatch h1 {
+    font-size: 40px;
+  }
 
-    .buttons img {
-        width: 35px;
-        margin: 0 10px;
-    }
+  .buttons img {
+    width: 35px;
+    margin: 0 10px;
+  }
 
-    .buttons img:nth-child(2) {
-        width: 50px;
-    }
+  .buttons img:nth-child(2) {
+    width: 50px;
+  }
 }
 
 /* 💻 Larger screens (tablets/desktops) */
 @media (min-width: 900px) {
-    .stopwatch {
-        max-width: 700px;
-        padding: 50px 0;
-    }
+  .stopwatch {
+    max-width: 700px;
+    padding: 50px 0;
+  }
 
-    .stopwatch h1 {
-        font-size: 72px;
-    }
+  .stopwatch h1 {
+    font-size: 72px;
+  }
 
-    .buttons img {
-        width: 60px;
-    }
+  .buttons img {
+    width: 60px;
+  }
 
-    .buttons img:nth-child(2) {
-        width: 90px;
-    }
+  .buttons img:nth-child(2) {
+    width: 90px;
+  }
 }
