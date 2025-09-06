@@ -75,7 +75,7 @@ Open index.html in your browser.
 
 👨‍💻 Author
 Abdulfattah Nizamani
-[GitHub Profile](https://github.com/fattahniz)
+[GitHub Profile](https://github.com/fattahniz) ||
 [LinkedIn](https://linkedin.com/in/fattahniz)
 
 
