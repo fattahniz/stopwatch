@@ -83,7 +83,7 @@ Abdulfattah Nizamani
 ---
 
 ### ✅ **How to add this README to your repo**
-```bash
+
 nano README.md
 Paste the above content.
 
@@ -93,7 +93,7 @@ Then commit and push:
 
 bash
 Copy code
-
+```bash
 git add README.md
 git commit -m "Add complete README with Vercel live link"
 git push origin main
