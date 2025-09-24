@@ -15,6 +15,8 @@ This project is part of my web development practice and demonstrates the use of 
 ## 🛠️ Tech Stack
 **Frontend:** HTML, CSS, JavaScript (ES6+)
 
+**Deployment:** Vercel
+
 ## Installation
 1. Clone the repository:
 ```bash
